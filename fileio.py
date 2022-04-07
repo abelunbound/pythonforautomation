@@ -40,8 +40,8 @@
 
 ## Writing files
 with open('inputFile.txt', 'r') as fileopener:
-    passFile = open('passFile.txt', 'w')
-    failFile = open('failFile.txt', 'w')
+    passFile = open('iPas2.txt', 'w')
+    failFile = open('iFail2.txt', 'w')
     for line in fileopener:
         line_split = line.split() #This splits each item in an element into 'columns'
         if line_split[2] == 'P':
